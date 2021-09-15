@@ -1,2 +1,3 @@
 # logica de progamacao com portugol
- Exercícios onde pude desenvolver minha lógica de programação, nos primeiro meses de estudo.
+
+Exercícios propostos na plataforma "Estudonauta" pelo professor Gustavo Guanabara, desenvolvidos com o editor de código Portugol Studio. Os códigos foram escritos exclusivamente por mim, com minha lógica.
