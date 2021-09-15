@@ -1,0 +1,24 @@
+programa
+{  /* Ex013: Nesse exemplo, irei fazer a minha primeira estrutura 
+			  condicional para parabenizar um aluno que tirou ótimas 
+			  notas e teve uma ótima média.
+	  Autor: Renan Epifânio Gonçalves 
+	*/
+	inclua biblioteca Matematica --> m
+	funcao inicio ()
+	{
+		escreva("\n{ EXEMPLO 013 - Bons alunos merecem parabéns}\n\n")
+		escreva("Digite a sua primeira nota: ")
+		real nota1
+		leia(nota1)
+		escreva("Digite a sua segunda nota: ")
+		real nota2
+		leia(nota2)
+		real media = m.arredondar((nota1 + nota2)/2, 2)
+		escreva("\n")
+		se (media >= 7) {
+			escreva("MEUS PARABÉNS! ")
+		}
+		escreva("A sua média final foi de " + media)
+	}
+}

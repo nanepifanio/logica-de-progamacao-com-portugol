@@ -1,0 +1,20 @@
+programa
+{
+	inclua biblioteca Matematica --> m
+	funcao inicio ()
+	{
+		escreva("{ EXERCÍCIO 018 - Preço da Passagem }\n\n")
+		escreva("Informe a distância total da viagem, em Km: ")
+		real distancia
+		leia(distancia)
+		se (distancia < 200) {
+			const real TARIFA1 = 0.5
+			real valor_viagem1 = distancia * TARIFA1
+			escreva("\n\nUma viagem de " + distancia + "Km vai custar R$" + TARIFA1 + "/Km. Valor total: R$" + m.arredondar(valor_viagem1,2))
+		} senao {
+			const real TARIFA2 = 0.35
+			real valor_viagem2 = distancia * TARIFA2
+			escreva("\n\nUma viagem de " + distancia + "Km vai custar R$" + TARIFA2 + "/Km. Valor total: R$" + m.arredondar(valor_viagem2,2))
+		}
+	}
+}

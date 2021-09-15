@@ -1,0 +1,16 @@
+programa
+{
+	inclua biblioteca Calendario --> c
+	funcao inicio ()
+	{
+		escreva("{ EXERCÍCIO 015 - Fila de banco }\n\n")
+		escreva("Em que ano você nasceu? ")
+		inteiro ano_nasc
+		leia(ano_nasc)
+		inteiro idade = c.ano_atual() - ano_nasc
+		escreva("\nVocê tem " + idade + " anos, certo? Seja bem vindo(a) ao banco Estudonauta!\n\n")
+		se (idade >= 65) {
+			escreva("==== ATENÇÃO! DIRIJA-SE PARA A FILA PREFERENCIAL! ====")
+		}
+	}
+}

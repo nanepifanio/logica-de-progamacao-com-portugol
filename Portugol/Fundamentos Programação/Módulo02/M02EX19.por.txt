@@ -1,0 +1,18 @@
+programa
+{
+	inclua biblioteca Matematica --> m
+	funcao inicio ()
+	{
+		escreva("{ EXERCÍCIO 019 - Inverso ou oposto }\n")
+		escreva("Digite um número: ")
+		real num
+		leia(num)
+		se (num > 0) {
+			real inv = 1/num
+			escreva("O inverso de " + num + " é igual a " + m.arredondar(inv,2))
+		} senao {
+			real oposto = num * (-1)
+			escreva("O oposto de " + num + " é igual a " + oposto)
+		}
+	}
+}

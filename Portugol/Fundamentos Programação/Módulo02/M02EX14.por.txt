@@ -1,0 +1,19 @@
+programa
+{
+	funcao inicio ()
+	{
+		escreva("\n{ EXERCÍCIO 014 - Consumidor ganha 10% de desconto }\n\n")
+		escreva("Qual foi o valor total de suas compras? R$")
+		real compras
+		leia(compras)
+		escreva("\n--------------------------------------------------\n")
+		escreva("\nVocê comprou R$" + compras + " na nossa loja. Obrigado!\n\n")
+		se (compras > 500) {
+			real desconto = compras * 0.1
+			real nvalor = compras - desconto
+			escreva("===== ATENÇÃO =====\n")
+			escreva("Por fazer mais de R$500 em compras, você vai receber R$" + desconto + " de desconto\n")
+			escreva("O valor a ser pago é de R$" + nvalor + "! Volte sempre!\n\n")
+		}
+	}
+}
